@@ -1,0 +1,82 @@
+{
+  "difficulty": {
+    "1": "Easy",
+    "2": "Medium",
+    "3": "Hard"
+  },
+  "tag": {
+    "1": "Array",
+    "2": "Hash Table",
+    "3": "Linked List",
+    "4": "String",
+    "5": "Stack",
+    "6": "Queue",
+    "7": "Binary Search",
+    "8": "Divide and Conquer",
+    "9": "Dynamic Programing",
+    "10": "Backtracking",
+    "11": "Tree",
+    "12": "Depth-first Seatch",
+    "13": "Breadth-first Search",
+    "14": "Other"
+  },
+  "language": {
+    "1": "js",
+    "2": "java",
+    "3": "c",
+    "4": "c ++",
+    "5": "python",
+    "6": "c#"
+  },
+  "variableType": {
+    "1": "int",
+    "2": "string",
+    "3": "boolean",
+    "4": "array_integer",
+    "5": "array_string"
+  },
+  "codeTemplate": {
+    "1": {
+      "lang_id": 1,
+      "name": "js",
+      "code_head": "",
+      "code_body": "",
+      "code_tail": ""
+    },
+    "2": {
+      "lang_id": 2,
+      "name": "java",
+      "code_head": "",
+      "code_body": "",
+      "code_tail": ""
+    },
+    "3": {
+      "lang_id": 3,
+      "name": "c",
+      "code_head": "",
+      "code_body": "",
+      "code_tail": ""
+    },
+    "4": {
+      "lang_id": 4,
+      "name": "c ++",
+      "code_head": "",
+      "code_body": "",
+      "code_tail": ""
+    },
+    "5": {
+      "lang_id": 5,
+      "name": "python",
+      "code_head": "",
+      "code_body": "",
+      "code_tail": ""
+    },
+    "6": {
+      "lang_id": 6,
+      "name": "c#",
+      "code_head": "",
+      "code_body": "",
+      "code_tail": ""
+    }
+  }
+}

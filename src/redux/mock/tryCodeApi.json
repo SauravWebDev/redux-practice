@@ -1,0 +1,153 @@
+{
+  "problem": {
+    "id": 1,
+    "slug": "kth_smallest_element_in_a_sorted_matrix",
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "description": "<p>Given a n x n matrix where each of the rows and columns are sorted in ascending order, </p><p>find the kth smallest element in the matrix.</p>",
+    "difficulty": 3,
+    "example": "<p><strong>Example 1 : </strong></p><p><strong>Input : [12,34,345,234] , 5</strong></p><p><strong>Output: 34</strong></p><p><strong>Explanation : </strong>4 is the answer</p><p><strong>Example 2 : </strong></p><p><strong>Input : [12,34,345,234] , 5</strong></p><p><strong>Output: 34</strong></p><p><strong>Explanation : </strong>4 is the answer</p>",
+    "tag": [1, 3],
+    "note": "<p><strong>Note 1 :</strong> Array size is less than 100</p><p><strong>Note 2 :</strong> Array size is more than 1</p>",
+    "language": [1, 2],
+    "status": 1,
+    "meta_data": {
+      "input_meta_data": {
+        "no_of_inputs": 2,
+        "inputs": [
+          { "name": "arr", "type": 4 },
+          { "name": "n", "type": 1 }
+        ]
+      },
+      "output_meta_data": { "type": 1 }
+    },
+    "default_input": [[232, 23, 231, 42], 2],
+    "sourceCode": [
+      {
+        "lang_id": 1,
+        "code": " /*\n\tarr type is array\n*/\nfunction kthSmallest(arr, n) {\n   \n}"
+      },
+      {
+        "lang_id": 2,
+        "code": "class Result {\n    \n  /*\n   * Complete the 'functionname' function below.\n   *\n   * The function is expected to return an INTEGER. The function accepts following\n   *\n   */\n\n  public static int kthSmallest(int[] arr, int n) {\n    return n;\n\n  }\n\n}"
+      },
+      {
+        "lang_id": 5,
+        "code": "\n   \n#\n# Complete the 'add1' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts following parameters:\n#  1. INTEGER id\n#  2. INTEGER_ARRAY arr\n#\n\ndef add1(id, arr):\n# Write your code here\n    "
+      }
+    ]
+  },
+  "problems": [
+    {
+      "id": 1,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "slug": "kth_smallest_element_in_a_sorted_matrix",
+      "difficulty": 3,
+      "status": 1
+    },
+    { "id": 3, "title": "2Sum", "slug": "2_sum", "difficulty": 2, "status": 1 },
+    {
+      "id": 20,
+      "title": "merge sort",
+      "slug": "merge_sort",
+      "difficulty": 1,
+      "status": 1
+    },
+    {
+      "id": 47,
+      "title": "sum of even number up to given limit ",
+      "slug": "sum_of_even_number_up_to_given_limit",
+      "difficulty": 1,
+      "status": 1
+    },
+    {
+      "id": 48,
+      "title": "Flatten an array ",
+      "slug": "flatten_an_array",
+      "difficulty": 2,
+      "status": 0
+    },
+    { "id": 49, "title": "abcd", "slug": "abcd", "difficulty": 1, "status": 0 }
+  ],
+  "constants": {
+    "difficulty": [
+      { "id": 1, "value": "Easy" },
+      { "id": 2, "value": "Medium" },
+      { "id": 3, "value": "Hard" }
+    ],
+    "tag": [
+      { "id": 1, "value": "Array" },
+      { "id": 2, "value": "Hash Table" },
+      { "id": 3, "value": "Linked List" },
+      { "id": 4, "value": "String" },
+      { "id": 5, "value": "Stack" },
+      { "id": 6, "value": "Queue" },
+      { "id": 7, "value": "Binary Search" },
+      { "id": 8, "value": "Divide and Conquer" },
+      { "id": 9, "value": "Dynamic Programing" },
+      { "id": 10, "value": "Backtracking" },
+      { "id": 11, "value": "Tree" },
+      { "id": 12, "value": "Depth-first Seatch" },
+      { "id": 13, "value": "Breadth-first Search" },
+      { "id": 14, "value": "Other" }
+    ],
+    "language": [
+      { "id": 1, "value": "js" },
+      { "id": 2, "value": "java" },
+      { "id": 3, "value": "c" },
+      { "id": 4, "value": "c ++" },
+      { "id": 5, "value": "python" },
+      { "id": 6, "value": "c#" }
+    ],
+    "variable_type": [
+      { "id": 1, "value": "int" },
+      { "id": 2, "value": "string" },
+      { "id": 3, "value": "boolean" },
+      { "id": 4, "value": "array_integer" },
+      { "id": 5, "value": "array_string" }
+    ],
+    "code_template": [
+      {
+        "lang_id": 1,
+        "name": "js",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 2,
+        "name": "java",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 3,
+        "name": "c",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 4,
+        "name": "c ++",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 5,
+        "name": "python",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 6,
+        "name": "c#",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      }
+    ]
+  }
+}

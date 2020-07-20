@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "slug": "kth_smallest_element_in_a_sorted_matrix",
+    "difficulty": 3,
+    "status": 1
+  },
+  "3": {
+    "id": 3,
+    "title": "2Sum",
+    "slug": "2_sum",
+    "difficulty": 2,
+    "status": 1
+  },
+  "20": {
+    "id": 20,
+    "title": "merge sort",
+    "slug": "merge_sort",
+    "difficulty": 1,
+    "status": 1
+  },
+  "47": {
+    "id": 47,
+    "title": "sum of even number up to given limit ",
+    "slug": "sum_of_even_number_up_to_given_limit",
+    "difficulty": 1,
+    "status": 1
+  },
+  "48": {
+    "id": 48,
+    "title": "Flatten an array ",
+    "slug": "flatten_an_array",
+    "difficulty": 2,
+    "status": 0
+  },
+  "49": {
+    "id": 49,
+    "title": "abcd",
+    "slug": "abcd",
+    "difficulty": 1,
+    "status": 0
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "problem": {
+    "id": 1,
+    "slug": "kth_smallest_element_in_a_sorted_matrix",
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "description": "<p>Given a n x n matrix where each of the rows and columns are sorted in ascending order, </p><p>find the kth smallest element in the matrix.</p>",
+    "difficulty": 3,
+    "example": "<p><strong>Example 1 : </strong></p><p><strong>Input : [12,34,345,234] , 5</strong></p><p><strong>Output: 34</strong></p><p><strong>Explanation : </strong>4 is the answer</p><p><strong>Example 2 : </strong></p><p><strong>Input : [12,34,345,234] , 5</strong></p><p><strong>Output: 34</strong></p><p><strong>Explanation : </strong>4 is the answer</p>",
+    "tag": [1, 3],
+    "note": "<p><strong>Note 1 :</strong> Array size is less than 100</p><p><strong>Note 2 :</strong> Array size is more than 1</p>",
+    "language": [1, 2],
+    "status": 1,
+    "meta_data": {
+      "input_meta_data": {
+        "no_of_inputs": 2,
+        "inputs": [
+          { "name": "arr", "type": 4 },
+          { "name": "n", "type": 1 }
+        ]
+      },
+      "output_meta_data": { "type": 1 }
+    },
+    "sourceCode": [
+      {
+        "problem_id": 1,
+        "code_head": "const fs = require(\"fs\");\nprocess.stdin.resume();\nprocess.stdin.setEncoding(\"utf-8\");\nlet inputString = \"\";\nlet currentLine = 0;\n\nprocess.stdin.on(\"data\", function (inputStdin) {\n  inputString += inputStdin;\n});\n\nprocess.stdin.on(\"end\", function () {\n  inputString = inputString.split(\"\\n\");\n  main();\n});\n\nfunction readLine() {\n  return inputString[currentLine++];\n}\n ",
+        "code_body": " /*\n\tarr type is array\n*/\nfunction kthSmallest(arr, n) {\n   \n}",
+        "code_tail": "function processRes(res) {\n  if(typeof res ==\"undefined\") {\n\treturn \"undefined\";\n  }else if(res == null) {\n\treturn \"null\";\t   \n  }else if(Array.isArray(res)){\n\treturn JSON.stringify(res);\n  }else {\n\treturn res;\n  }\n}\n\nfunction main() {\n  const ws = fs.createWriteStream(process.env.outputFile);\n  const noOfTestCase = parseInt(readLine().trim(), 10);\n  let result = \"\";\n  for (let i = 0; i < noOfTestCase; i++) {\n    const arrCount = parseInt(readLine().trim(), 10);\n    let arr = [];\n\n    for (let i = 0; i < arrCount; i++) {\n      const arrItem = parseInt(readLine().trim(), 10);\n      arr.push(arrItem);\n    }\n    const id = parseInt(readLine().trim(), 10);\n\tlet res = kthSmallest(arr, id);\n\tresult += processRes(res);\n    result += \"\\n\";\n  }\n  ws.write(`${result}`);\n  ws.end();\n}",
+        "lang_id": 1
+      },
+      {
+        "problem_id": 1,
+        "code_head": "import java.io.*;\nimport java.math.*;\nimport java.security.*;\nimport java.text.*;\nimport java.util.*;\nimport java.util.concurrent.*;\nimport java.util.function.*;\nimport java.util.regex.*;\nimport java.util.stream.*;\nimport static java.util.stream.Collectors.joining;\nimport static java.util.stream.Collectors.toList;",
+        "code_body": "class Result {\n    \n  /*\n   * Complete the 'functionname' function below.\n   *\n   * The function is expected to return an INTEGER. The function accepts following\n   *\n   */\n\n  public static int kthSmallest(int[] arr, int n) {\n    return n;\n\n  }\n\n}",
+        "code_tail": "public class Solution {\n  public static void main(String[] args) throws IOException {\n    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));\n    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv(\"outputFile\")));\n\n    int noOfCases = Integer.parseInt(bufferedReader.readLine().trim());\n    \n    for(int i = 0; i < noOfCases; i++) {\n      int arrCount = Integer.parseInt(bufferedReader.readLine().trim());\n      int[] arr = new int[arrCount];\n      \n      for (int j = 0; j < arrCount; j++) {\n        int arrItem = Integer.parseInt(bufferedReader.readLine().trim());\n        arr[j] = arrItem;\n      }\n      int id = Integer.parseInt(bufferedReader.readLine().trim());\n      int result = Result.kthSmallest(arr, id);\n\n      bufferedWriter.write(\"\"+result);\n      bufferedWriter.newLine();\n\n    }\n    bufferedReader.close();\n    bufferedWriter.close();\n \n  }\n}",
+        "lang_id": 2
+      },
+      {
+        "problem_id": 1,
+        "code_head": "\n    #!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n    \n    ",
+        "code_body": "\n   \n#\n# Complete the 'add1' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts following parameters:\n#  1. INTEGER id\n#  2. INTEGER_ARRAY arr\n#\n\ndef add1(id, arr):\n# Write your code here\n    ",
+        "code_tail": "\n    if __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    id = int(input().strip())\n\n    arr_count = int(input().strip())\n\n    arr = []\n\n    for _ in range(arr_count):\n        arr_item = int(input().strip())\n        arr.append(arr_item)\n\n    result = add1(id, arr)\n\n    fptr.write(str(result) + '\n')\n\n    fptr.close()\n    ",
+        "lang_id": 5
+      }
+    ],
+    "test_case": [
+      {
+        "id": 25,
+        "name": null,
+        "type": 2,
+        "problem_id": 1,
+        "input": [[232, 23, 231, 42], 2],
+        "output": 10
+      },
+      {
+        "id": 26,
+        "name": null,
+        "type": 1,
+        "problem_id": 1,
+        "input": [[34, 23, 124, 24], 23],
+        "output": 423
+      },
+      {
+        "id": 27,
+        "name": null,
+        "type": 1,
+        "problem_id": 1,
+        "input": [[23, 23, 2], 1],
+        "output": 12
+      }
+    ]
+  },
+  "problems": [
+    {
+      "id": 1,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "slug": "kth_smallest_element_in_a_sorted_matrix",
+      "difficulty": 3,
+      "status": 1
+    },
+    { "id": 3, "title": "2Sum", "slug": "2_sum", "difficulty": 2, "status": 1 },
+    {
+      "id": 20,
+      "title": "merge sort",
+      "slug": "merge_sort",
+      "difficulty": 1,
+      "status": 1
+    },
+    {
+      "id": 47,
+      "title": "sum of even number up to given limit ",
+      "slug": "sum_of_even_number_up_to_given_limit",
+      "difficulty": 1,
+      "status": 1
+    },
+    {
+      "id": 48,
+      "title": "Flatten an array ",
+      "slug": "flatten_an_array",
+      "difficulty": 2,
+      "status": 0
+    },
+    { "id": 49, "title": "abcd", "slug": "abcd", "difficulty": 1, "status": 0 }
+  ],
+  "constants": {
+    "difficulty": [
+      { "id": 1, "value": "Easy" },
+      { "id": 2, "value": "Medium" },
+      { "id": 3, "value": "Hard" }
+    ],
+    "tag": [
+      { "id": 1, "value": "Array" },
+      { "id": 2, "value": "Hash Table" },
+      { "id": 3, "value": "Linked List" },
+      { "id": 4, "value": "String" },
+      { "id": 5, "value": "Stack" },
+      { "id": 6, "value": "Queue" },
+      { "id": 7, "value": "Binary Search" },
+      { "id": 8, "value": "Divide and Conquer" },
+      { "id": 9, "value": "Dynamic Programing" },
+      { "id": 10, "value": "Backtracking" },
+      { "id": 11, "value": "Tree" },
+      { "id": 12, "value": "Depth-first Seatch" },
+      { "id": 13, "value": "Breadth-first Search" },
+      { "id": 14, "value": "Other" }
+    ],
+    "language": [
+      { "id": 1, "value": "js" },
+      { "id": 2, "value": "java" },
+      { "id": 3, "value": "c" },
+      { "id": 4, "value": "c ++" },
+      { "id": 5, "value": "python" },
+      { "id": 6, "value": "c#" }
+    ],
+    "variable_type": [
+      { "id": 1, "value": "int" },
+      { "id": 2, "value": "string" },
+      { "id": 3, "value": "boolean" },
+      { "id": 4, "value": "array_integer" },
+      { "id": 5, "value": "array_string" }
+    ],
+    "code_template": [
+      {
+        "lang_id": 1,
+        "name": "js",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 2,
+        "name": "java",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 3,
+        "name": "c",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 4,
+        "name": "c ++",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 5,
+        "name": "python",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      },
+      {
+        "lang_id": 6,
+        "name": "c#",
+        "code_head": "",
+        "code_body": "",
+        "code_tail": ""
+      }
+    ]
+  }
+}
